@@ -5,3 +5,9 @@ transformers
 accelerate
 invisible_watermark
 Pillow
+streamlit
+torch
+diffusers
+transformers
+accelerate
+mediapy
