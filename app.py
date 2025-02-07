@@ -1,5 +1,4 @@
 import streamlit as st
-import torch
 import random
 import sys
 from diffusers import DiffusionPipeline
@@ -9,6 +8,7 @@ os.environ["STREAMLIT_WATCH_FILE"] = "false"
 
 # Function to generate images
 def generate_image(prompt, use_refiner):
+    import torch  # Import inside the function
     device = "cuda" if torch.cuda.is_available() else "cpu"
     dtype = torch.float16 if device == "cuda" else torch.float32
 

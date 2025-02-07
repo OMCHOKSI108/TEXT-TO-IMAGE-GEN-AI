@@ -1,5 +1,6 @@
-torch
+torch==2.0.1
 diffusers
 transformers
 mediapy
 streamlit
+torch --no-cache-dir
