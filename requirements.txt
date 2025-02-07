@@ -1,9 +1,6 @@
-streamlit
-torch
 diffusers
 transformers
 accelerate
 invisible_watermark
-Pillow
-accelerate
 mediapy
+streamlit

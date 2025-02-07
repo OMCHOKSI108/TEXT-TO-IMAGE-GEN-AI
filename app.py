@@ -8,12 +8,6 @@ from diffusers import DiffusionPipeline
 from io import BytesIO
 import platform
 
-# Check the operating system
-if platform.system() == 'Linux':
-    st.warning('On Linux, make sure to install libgl1-mesa-glx: sudo apt-get install libgl1-mesa-glx')
-elif platform.system() == 'Windows':
-    st.warning('On Windows, ensure you have the OpenGL libraries installed.')
-
 # Define a function to generate images
 def generate_image(prompt, use_refiner):
     pipe = DiffusionPipeline.from_pretrained(
@@ -53,7 +47,7 @@ def generate_image(prompt, use_refiner):
 # Define the Streamlit app
 st.title('Text-to-Image Generator')
 
-prompt = st.text_input("Enter your prompt: ")
+prompt = st.text_input('Enter your prompt:', 'human genome laboratory where a scientist making experiment on pink colour gene in white cat and light blue colour dog.')
 use_refiner = st.checkbox('Use Refiner')
 
 if st.button('Generate'):
