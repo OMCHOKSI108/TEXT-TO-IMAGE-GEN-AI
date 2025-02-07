@@ -51,7 +51,7 @@ streamlit run app.py
 ```
 
 ## Output Example
-![Example Video](text-to-image-ai/00001.mp4)
+![Example Video](https://github.com/OMCHOKSI108/TEXT-TO-IMAGE-GEN-AI/blob/main/text-to-image-ai/00001.mp4)
 
 ## License
 This project is licensed under the MIT License.
