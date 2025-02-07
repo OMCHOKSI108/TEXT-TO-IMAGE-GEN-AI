@@ -4,8 +4,15 @@ import mediapy as media
 import random
 import sys
 import torch
+import platform
 from diffusers import DiffusionPipeline
 from io import BytesIO
+
+# Check the operating system
+if platform.system() == 'Linux':
+    st.warning('On Linux, make sure to install libgl1-mesa-glx: sudo apt-get install libgl1-mesa-glx')
+elif platform.system() == 'Windows':
+    st.warning('On Windows, ensure you have the OpenGL libraries installed.')
 
 # Define a function to generate images
 def generate_image(prompt, use_refiner):
