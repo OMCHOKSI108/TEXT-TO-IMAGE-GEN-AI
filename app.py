@@ -4,9 +4,9 @@ import mediapy as media
 import random
 import sys
 import torch
-import platform
 from diffusers import DiffusionPipeline
 from io import BytesIO
+import platform
 
 # Check the operating system
 if platform.system() == 'Linux':
