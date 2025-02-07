@@ -8,7 +8,7 @@ This project uses AI to generate images from text prompts. It requires a high-le
 
 1. Open the [Google Colab](https://colab.research.google.com/) website.
 2. Click on the **GitHub** tab.
-3. Enter the URL of this repository: `https://github.com/OMCHOKSI/TEXT-TO-IMAGE-GEN-AI`
+3. Enter the URL of this repository: `https://github.com/OMCHOKSI108/TEXT-TO-IMAGE-GEN-AI`
 4. Select the `text-to-image.ipynb` file.
 5. Click on **Open Notebook**.
 
