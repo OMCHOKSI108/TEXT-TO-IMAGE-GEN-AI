@@ -7,4 +7,3 @@ invisible_watermark
 Pillow
 accelerate
 mediapy
-libgl1-mesa-glx
