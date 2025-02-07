@@ -1,6 +1,5 @@
+torch
 diffusers
 transformers
-accelerate
-invisible_watermark
 mediapy
 streamlit
