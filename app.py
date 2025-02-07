@@ -4,6 +4,8 @@ import random
 import sys
 from diffusers import DiffusionPipeline
 from io import BytesIO
+import os
+os.environ["STREAMLIT_WATCH_FILE"] = "false"
 
 # Function to generate images
 def generate_image(prompt, use_refiner):
