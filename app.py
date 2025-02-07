@@ -53,7 +53,7 @@ def generate_image(prompt, use_refiner):
 # Define the Streamlit app
 st.title('Text-to-Image Generator')
 
-prompt = st.text_input('Enter your prompt:', 'human genome laboratory where a scientist making experiment on pink colour gene in white cat and light blue colour dog.')
+prompt = st.text_input("Enter your prompt: ")
 use_refiner = st.checkbox('Use Refiner')
 
 if st.button('Generate'):
