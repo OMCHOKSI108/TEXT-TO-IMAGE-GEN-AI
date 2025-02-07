@@ -3,4 +3,4 @@ diffusers
 transformers
 mediapy
 streamlit
-torch --no-cache-dir
+
