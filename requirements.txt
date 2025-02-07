@@ -1,6 +1,9 @@
-torch==2.0.1
+streamlit
+torch
 diffusers
 transformers
+accelerate
+invisible_watermark
+Pillow
+accelerate
 mediapy
-streamlit
-
