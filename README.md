@@ -24,7 +24,7 @@ text-to-image-ai/
 ## Setup & Installation
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/text-to-image-ai.git
+git clone https://github.com/OMCHOKSI108/text-to-image-ai.git
 cd text-to-image-ai
 ```
 
@@ -63,5 +63,5 @@ This project is licensed under the MIT License.
 
 ---
 
-Made with ❤️ by [Your Name]
+Made with ❤️ by Om Choksi.
 
