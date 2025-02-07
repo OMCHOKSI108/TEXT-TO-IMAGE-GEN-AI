@@ -38,11 +38,6 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## Deploying on Streamlit Cloud
-1. Push your repository to GitHub.
-2. Go to **[Streamlit Cloud](https://share.streamlit.io/)** and log in.
-3. Click **"New app"**, connect your GitHub repo, and select `app.py` as the entry point.
-4. Click **"Deploy"**.
 
 ## Deploying on Hugging Face Spaces
 1. Create a new space on **[Hugging Face Spaces](https://huggingface.co/spaces)**.
@@ -56,7 +51,7 @@ streamlit run app.py
 ```
 
 ## Output Example
-![Example Image](images/example.jpg)
+![Example Video](text-to-image-ai/00001.mp4)
 
 ## License
 This project is licensed under the MIT License.
