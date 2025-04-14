@@ -2,7 +2,7 @@
 
 ![Pipeline](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/pipeline.png)
 
-Model Link From huggingface : ![](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0)
+**Model Link from Hugging Face:** [Stable Diffusion XL Base 1.0](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0)
 
 This project uses AI to generate images from text prompts. It requires a high-level GPU, which can be provided by Google Colab.
 
