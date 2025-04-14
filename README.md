@@ -24,3 +24,11 @@ This project uses AI to generate images from text prompts. It requires a high-le
 - Google Colab (for running the notebook with GPU)
 - List of required libraries (automatically installed in Colab)
 
+## Basic Code Explanation
+
+- Loads Stable Diffusion XL model using Hugging Face's `diffusers` library.
+- Takes a text prompt as input from the user.
+- Generates an image based on the prompt using the GPU.
+- Optionally refines the image for more detail (if enabled).
+- Displays and saves the generated image (`output.jpg`).
+
