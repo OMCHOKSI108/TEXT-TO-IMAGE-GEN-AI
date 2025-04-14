@@ -1,5 +1,7 @@
 # Text to Image Generation
 
+![Pipeline](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/pipeline.png)
+
 This project uses AI to generate images from text prompts. It requires a high-level GPU, which can be provided by Google Colab.
 
 ## How to Use
@@ -31,4 +33,3 @@ This project uses AI to generate images from text prompts. It requires a high-le
 - Generates an image based on the prompt using the GPU.
 - Optionally refines the image for more detail (if enabled).
 - Displays and saves the generated image (`output.jpg`).
-
